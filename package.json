@@ -29,7 +29,9 @@
     "@types/react-dom": "19.0.3"
   },
   "pnpm": {
-    "ignoredBuiltDependencies": [
+    "ignoredBuiltDependencies": [],
+    "onlyBuiltDependencies": [
+      "sharp",
       "bcrypt"
     ]
   }
